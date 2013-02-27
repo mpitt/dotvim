@@ -7,6 +7,9 @@ syntax enable
 set background=dark
 colorscheme solarized
 
+" Syntax checking
+let g:syntastic_quiet_warnings=1    " don't display warinigs, only errors
+
 " Powerline
 set laststatus=2
 let g:Powerline_symbols = 'fancy'
