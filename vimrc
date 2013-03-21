@@ -4,7 +4,6 @@ execute pathogen#infect()
 
 " Syntax highlighting and color scheme
 syntax enable
-set background=dark
 colorscheme solarized
 
 " Syntax checking
