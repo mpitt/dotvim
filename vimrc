@@ -9,6 +9,8 @@ colorscheme solarized
 
 " Syntax checking
 let g:syntastic_quiet_warnings=1    " don't display warinigs, only errors
+let g:syntastic_check_on_open=1
+let g:syntastic_python_checker="flake8"
 
 " Powerline
 set laststatus=2
