@@ -1,22 +1,11 @@
-set nocompatible
-
-execute pathogen#infect()
+" Vundle and bundles configuration
+source ~/.vim/bundles.vim
 
 " Syntax highlighting and color scheme
 syntax enable
 colorscheme solarized
 
-" Syntax checking
-let g:syntastic_quiet_warnings=1    " don't display warinigs, only errors
-let g:syntastic_check_on_open=1
-let g:syntastic_python_checker="flake8"
-
-" Powerline
-set laststatus=2
-let g:Powerline_symbols = 'fancy'
-
 set showcmd
-filetype plugin indent on
 set autowrite                       " save a file when switching to another
 set number                          " enable line numbers
 nmap j gj
@@ -37,6 +26,15 @@ set mouse=a
 set incsearch                       " incremental search
 set ignorecase                      " ignore the case
 set smartcase                       " unless search terms contain a capital
+
+" Syntax checking
+let g:syntastic_quiet_warnings=1    " don't display warinigs, only errors
+let g:syntastic_check_on_open=1
+let g:syntastic_python_checker="flake8"
+
+" Powerline
+set laststatus=2
+let g:Powerline_symbols = 'fancy'
 
 " Tweaking autocompletion (Wildmenu)
 if has("wildmenu")
