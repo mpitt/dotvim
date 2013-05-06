@@ -15,7 +15,7 @@ set scrolloff=3
 " White space
 set nowrap                          " don't wrap lines
 set expandtab                       " expand tabs to spaces
-set tabstop=4 shiftwidth=4          " a tab is 4 spaces
+set tabstop=2 shiftwidth=2          " a tab is 2 spaces
                                     " unless overridden by plugin
 set autoindent                      " infer identation from near lines
 set backspace=indent,eol,start      " backspace through everything in insert
