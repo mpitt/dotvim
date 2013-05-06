@@ -12,6 +12,10 @@ nmap j gj
 nmap k gk
 set scrolloff=3
 
+" Sensible splits
+set splitbelow
+set splitright
+
 " White space
 set nowrap                          " don't wrap lines
 set expandtab                       " expand tabs to spaces
