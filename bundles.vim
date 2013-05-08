@@ -13,5 +13,6 @@ Bundle 'Syntastic'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'fugitive.vim'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'lunaru/vim-less'
 
 filetype plugin indent on       " required!
