@@ -70,3 +70,11 @@ augroup resCur
     autocmd!
     autocmd BufWinEnter * call ResCur()
 augroup END
+
+" Starting with Vim 7, the filetype of empty .tex files defaults to
+" 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
+" The following changes the default filetype back to 'tex':
+let g:tex_flavor='latex'
+
+" For Latex-Suite. Set grep to always generate a file-name
+set grepprg=grep\ -nH\ $*
