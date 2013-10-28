@@ -20,5 +20,6 @@ Bundle 'gnupg.vim'
 Bundle 'myusuf3/numbers.vim'
 Bundle 'git://git.code.sf.net/p/vim-latex/vim-latex'
 Bundle 'wannesm/wmgraphviz.vim'
+Bundle 'rking/ag.vim'
 
 filetype plugin indent on       " required!
