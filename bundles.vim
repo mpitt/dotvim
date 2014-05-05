@@ -1,4 +1,6 @@
 set nocompatible
+set modelines=5                 " this should have been handled by
+                                " nocompatible, but...
 filetype off                    " required!
 
 " Use Vundle
@@ -21,5 +23,6 @@ Bundle 'myusuf3/numbers.vim'
 Bundle 'git://git.code.sf.net/p/vim-latex/vim-latex'
 Bundle 'wannesm/wmgraphviz.vim'
 Bundle 'rking/ag.vim'
+Bundle 'Yggdroot/indentLine'
 
 filetype plugin indent on       " required!
