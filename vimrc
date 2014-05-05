@@ -32,9 +32,9 @@ set ignorecase                      " ignore the case
 set smartcase                       " unless search terms contain a capital
 
 " Syntax checking
-let g:syntastic_quiet_warnings=1    " don't display warinigs, only errors
-let g:syntastic_check_on_open=1
-let g:syntastic_python_checker="flake8"
+let g:syntastic_quiet_messages = {'level': 'warnings'}  " don't display warinigs, only errors
+let g:syntastic_check_on_open = 1
+let g:syntastic_python_checker = "flake8"
 
 " Powerline
 set laststatus=2
