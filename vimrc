@@ -71,6 +71,9 @@ augroup resCur
     autocmd BufWinEnter * call ResCur()
 augroup END
 
+" Force .md files to be read as Markdown instead of the defautl Modula2
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
 " Starting with Vim 7, the filetype of empty .tex files defaults to
 " 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
 " The following changes the default filetype back to 'tex':
