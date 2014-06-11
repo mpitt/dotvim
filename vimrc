@@ -31,6 +31,10 @@ set incsearch                       " incremental search
 set ignorecase                      " ignore the case
 set smartcase                       " unless search terms contain a capital
 
+" Soft wrapping
+" use :Wrap to set the necessary options
+command! -nargs=* Wrap set wrap linebreak nolist
+
 " Syntax checking
 let g:syntastic_quiet_messages = {'level': 'warnings'}  " don't display warinigs, only errors
 let g:syntastic_check_on_open = 1
