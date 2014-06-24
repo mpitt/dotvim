@@ -24,5 +24,6 @@ Bundle 'git://git.code.sf.net/p/vim-latex/vim-latex'
 Bundle 'wannesm/wmgraphviz.vim'
 Bundle 'rking/ag.vim'
 Bundle 'Yggdroot/indentLine'
+Bundle 'bkad/CamelCaseMotion'
 
 filetype plugin indent on       " required!
