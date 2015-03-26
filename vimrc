@@ -4,6 +4,8 @@ source ~/.vim/bundles.vim
 " Syntax highlighting and color scheme
 syntax enable
 colorscheme solarized
+set background=dark
+set t_Co=16
 
 set showcmd
 set autowrite                       " save a file when switching to another
