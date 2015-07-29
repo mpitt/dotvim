@@ -85,6 +85,9 @@ autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 " The following changes the default filetype back to 'tex':
 let g:tex_flavor='latex'
 
+" Don't use conceal for sub/superscript
+let g:tex_conceal='abgm'
+
 " For Latex-Suite. Set grep to always generate a file-name
 set grepprg=grep\ -nH\ $*
 " Make latex-suite compile correctly when using dot2texi
