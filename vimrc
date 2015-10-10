@@ -7,6 +7,10 @@ colorscheme solarized
 set background=dark
 set t_Co=16
 " }}}
+" ESC and <leader> remap {{{
+let mapleader=","                   " set <leader> to comma
+inoremap jk <esc>
+" }}}
 " UI and movement {{{
 set showcmd
 set number                          " enable line numbers
