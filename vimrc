@@ -37,6 +37,9 @@ set incsearch                       " incremental search
 set ignorecase                      " ignore the case
 set smartcase                       " unless search terms contain a capital
 " }}}
+" Gundo {{{
+nnoremap <leader>u :GundoToggle<CR>
+"}}}
 " Syntastic {{{
 let g:syntastic_quiet_messages = {'level': 'warnings'}  " don't display warinigs, only errors
 let g:syntastic_check_on_open = 1

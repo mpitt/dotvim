@@ -25,5 +25,6 @@ Bundle 'wannesm/wmgraphviz.vim'
 Bundle 'rking/ag.vim'
 Bundle 'Yggdroot/indentLine'
 Bundle 'bkad/CamelCaseMotion'
+Bundle 'sjl/gundo.vim'
 
 filetype plugin indent on       " required!
