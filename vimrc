@@ -10,6 +10,7 @@ set t_Co=16
 set showcmd
 set autowrite                       " save a file when switching to another
 set number                          " enable line numbers
+set cursorline                      " highlight current line
 nmap j gj
 nmap k gk
 set scrolloff=3
