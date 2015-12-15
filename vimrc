@@ -104,5 +104,17 @@ let g:Tex_CompileRule_pdf='pdflatex -interaction=nonstopmode -file-line-error-st
 " Rule for PDF viewer
 let g:Tex_ViewRule_pdf=''
 " }}}
+" vim-ledger {{{
+" https://github.com/ledger/vim-ledger
+" Set the maximum width of the foldtext
+let g:ledger_maxwidth = 80
+let g:ledger_fold_blanks = 1
+let g:ledger_decimal_sep = ','
+let g:ledger_default_commodity = '€'
+let g:ledger_commodity_before = 1
+let g:ledger_main = 'ledger.dat'
+let g:ledger_extra_options = '--pedantic --explicit'
+let g:ledger_winpos = 'R'
+" }}}
 
 " vim:foldmethod=marker:foldlevel=0
