@@ -12,5 +12,5 @@ ln -s .vim/vimrc .vimrc
 # ~/.tmp is needed for backup, alternatives: 
 # ~/.vim-tmp, ~/tmp, /var/tmp, /tmp
 mkdir .tmp
-vim -u .vim/bundles.vim +BundleInstall +q
+vim -u .vim/plugins.vim +PluginInstall +q
 ```

@@ -1,5 +1,5 @@
 " Vundle and bundles configuration {{{
-source ~/.vim/bundles.vim
+source ~/.vim/plugins.vim
 " }}}
 " Syntax highlighting and color scheme {{{
 syntax enable
