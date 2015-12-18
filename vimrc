@@ -100,9 +100,11 @@ let g:tex_conceal='abgm'
 " For Latex-Suite. Set grep to always generate a file-name
 set grepprg=grep\ -nH\ $*
 " Make latex-suite compile correctly when using dot2texi
-let g:Tex_CompileRule_pdf='pdflatex -interaction=nonstopmode -file-line-error-style --enable-write18 $*'
-" Rule for PDF viewer
-let g:Tex_ViewRule_pdf=''
+let g:Tex_CompileRule_pdf='pdflatex --synctex=1 -interaction=nonstopmode -file-line-error-style --enable-write18 $*'
+" Handle multiple compilation where producing PDFs directly
+let g:Tex_MultipleCompileFormats='dvi, pdf'
+" Set default PDF viewer
+let g:Tex_ViewRule_pdf='Skim'
 " }}}
 " vim-ledger {{{
 " https://github.com/ledger/vim-ledger
