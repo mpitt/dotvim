@@ -6,7 +6,7 @@ syntax enable
 colorscheme solarized
 set background=dark
 set t_Co=16
-" }}}
+" }}}
 " ESC and <leader> remap {{{
 let mapleader=","                   " set <leader> to comma
 inoremap jk <esc>
@@ -51,6 +51,7 @@ let g:syntastic_python_checkers = ['flake8']
 " }}}
 " Powerline {{{
 set laststatus=2
+set encoding=utf-8
 let g:Powerline_symbols = 'fancy'
 " }}}
 " Tweaking autocompletion (Wildmenu) {{{
