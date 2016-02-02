@@ -48,6 +48,7 @@ nnoremap <leader>u :GundoToggle<CR>
 let g:syntastic_quiet_messages = {'level': 'warnings'}  " don't display warinigs, only errors
 let g:syntastic_check_on_open = 1
 let g:syntastic_python_checkers = ['flake8']
+let g:syntastic_java_javac_config_file_enabled = 1
 " }}}
 " Powerline {{{
 set laststatus=2
