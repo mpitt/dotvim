@@ -15,6 +15,8 @@ inoremap jk <esc>
 set showcmd
 set number                          " enable line numbers
 set cursorline                      " highlight current line
+set conceallevel=0
+let g:indentLine_setConceal = 0
 " move on visual lines, not logical
 nmap j gj
 nmap k gk
