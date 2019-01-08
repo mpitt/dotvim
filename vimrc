@@ -1,3 +1,4 @@
+scriptencoding utf-8
 " Vundle and bundles configuration {{{
 source ~/.vim/plugins.vim
 " }}}
@@ -25,12 +26,13 @@ set splitbelow                      " sensible splits
 set splitright
 " }}}
 " White space {{{
-set nowrap                          " don't wrap lines
-set expandtab                       " expand tabs to spaces
-set tabstop=2 shiftwidth=2          " a tab is 2 spaces
-                                    " unless overridden by plugin
-set autoindent                      " infer identation from near lines
-set backspace=indent,eol,start      " backspace through everything in insert
+set nowrap                                                " don't wrap lines
+set expandtab                                             " expand tabs to spaces
+set tabstop=2 shiftwidth=2                                " a tab is 2 spaces
+                                                          " unless overridden by plugin
+set autoindent                                            " infer identation from near lines
+set backspace=indent,eol,start                            " backspace through everything in insert
+set listchars=tab:»·,trail:·,precedes:«,extends:»         " how to show whitespace, use :set list! to toggle
 " Soft wrapping
 " use :Wrap to set the necessary options
 command! -nargs=* Wrap set wrap linebreak nolist
