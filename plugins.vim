@@ -29,5 +29,6 @@ Plugin 'sjl/gundo.vim'
 " Plugin 'ledger/vim-ledger'
 Plugin 'https://github.com/m-kat/aws-vim'
 Plugin 'chr4/nginx.vim'
+Plugin 'google/vim-jsonnet'
 
 filetype plugin indent on       " required!
