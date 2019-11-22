@@ -94,6 +94,10 @@ augroup END
 " Filetype detection {{{
 source ~/.vim/filetype_overrides.vim      " Overrides for filetype detection
 " }}}
+" Git {{{
+let g:fugitive_gitlab_domains = ['https://scanzia.spaziodati.eu']
+let g:gitlab_api_keys = {'scanzia.spaziodati.eu': 'ZkDteKpFmGHZHKJoVozy'}
+" }}}
 " LaTeX {{{
 " Starting with Vim 7, the filetype of empty .tex files defaults to
 " 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
