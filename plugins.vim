@@ -35,5 +35,6 @@ Plugin 'google/vim-jsonnet'
 Plugin 'robbles/logstash.vim'
 Plugin 'pearofducks/ansible-vim'
 Plugin 'hashivim/vim-terraform'
+Plugin 'pedrohdz/vim-yaml-folds'
 
 filetype plugin indent on       " required!
