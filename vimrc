@@ -128,5 +128,8 @@ let g:ledger_main = 'ledger.dat'
 let g:ledger_extra_options = '--pedantic --explicit'
 let g:ledger_winpos = 'R'
 " }}}
+" Terraform {{{
+let g:terraform_fmt_on_save=1
+" }}}
 
 " vim:foldmethod=marker:foldlevel=0
