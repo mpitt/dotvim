@@ -37,6 +37,9 @@ set listchars=tab:»·,trail:·,precedes:«,extends:»         " how to show whi
 " use :Wrap to set the necessary options
 command! -nargs=* Wrap set wrap linebreak nolist
 " }}}
+" Folding {{{
+set foldlevelstart=2
+" }}}
 " Mouse {{{
 set mouse=a
 " }}}
