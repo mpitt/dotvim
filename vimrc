@@ -7,6 +7,7 @@ syntax enable
 colorscheme solarized
 set background=dark
 set t_Co=16
+let g:markdown_fenced_languages = ['python', 'sh', 'json', 'yaml']
 " }}}
 " ESC and <leader> remap {{{
 let mapleader=","                   " set <leader> to comma
