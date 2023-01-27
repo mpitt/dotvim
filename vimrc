@@ -25,6 +25,21 @@ nmap k gk
 set scrolloff=3                     " always 3 lines above or below current
 set splitbelow                      " sensible splits
 set splitright
+" custom movements for convenience
+" ie = inner entire buffer
+onoremap ie :exec "normal! ggVG"<cr>
+" iv = current viewable text in the buffer
+onoremap iv :exec "normal! HVL"<cr>
+" }}}
+" Subversive {{{
+" https://github.com/svermeulen/vim-subversive#readme
+nmap <leader>s <plug>(SubversiveSubstituteRange)
+xmap <leader>s <plug>(SubversiveSubstituteRange)
+nmap <leader>ss <plug>(SubversiveSubstituteWordRange)
+" with abolish.vim
+nmap <leader><leader>s <plug>(SubversiveSubvertRange)
+xmap <leader><leader>s <plug>(SubversiveSubvertRange)
+nmap <leader><leader>ss <plug>(SubversiveSubvertWordRange)
 " }}}
 " White space {{{
 set nowrap                                                " don't wrap lines

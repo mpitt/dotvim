@@ -29,7 +29,6 @@ Plugin 'Yggdroot/indentLine'
 Plugin 'bkad/CamelCaseMotion'
 Plugin 'sjl/gundo.vim'
 " Plugin 'ledger/vim-ledger'
-Plugin 'https://github.com/m-kat/aws-vim'
 Plugin 'chr4/nginx.vim'
 Plugin 'google/vim-jsonnet'
 Plugin 'robbles/logstash.vim'
@@ -40,5 +39,7 @@ Plugin 'fatih/vim-go'
 Plugin 'neoclide/coc.nvim', {'pinned': 1}
 Plugin 'tpope/vim-abolish'
 Plugin 'junegunn/vim-peekaboo'
+Plugin 'tpope/vim-characterize'
+Plugin 'svermeulen/vim-subversive'
 
 filetype plugin indent on       " required(!
